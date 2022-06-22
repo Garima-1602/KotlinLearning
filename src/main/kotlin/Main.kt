@@ -7,11 +7,12 @@ fun main() {
     val name='G'
 
     wholeNumber =wholeNumber+5
-    print(wholeNumber)
-    print(condition)
-
-    print(number)
-    print(name)
+    //types of variables are not changed
+    println(wholeNumber)
+    println(condition)
+//println is used to print in new line
+    println(number)
+    println(name)
 
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
