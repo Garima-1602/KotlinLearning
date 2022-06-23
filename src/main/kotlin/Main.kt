@@ -1,9 +1,7 @@
 fun main() {
-    newFun() //invoking a func
+ var characterArray=arrayOf<Char>('g','a','r','i','m','a')
+    val charArray=arrayOf<Char>('a','e','i','o','u')
 
-}
-//this body in {} is known as block body
-//whereas using= instead of {} is known as expression body
-fun newFun():Unit{
-    println("This is a new function")
+    var array:Array<Any> =arrayOf("Hello",12,12.8,true,'X')
+
 }
