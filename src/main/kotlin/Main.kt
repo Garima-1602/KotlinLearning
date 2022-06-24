@@ -1,13 +1,13 @@
 fun main(){
    //using when keyword instead of if else ladder
-   var num=2
+   var num=0
 
-   when(num){
-      0->println("Zero")
-      1->println("One")
-      2->println("Two")
+   when(num!=0){
+      num>0->println("Positive")
+      num<0->println("Negative")
 
-      else->println("None of the above")
+
+      else->println("Zero")
    }
    //when{ num>0->prinltn("Positive")......
 }
