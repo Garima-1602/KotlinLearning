@@ -1,18 +1,13 @@
-fun main()
-{//Block body
-   var a=10
-   var b=11
-   var maxValue:Int
-   if(a>b)
-   {
-      maxValue=a
-   }
-   else
-   {
-      maxValue=b
-   }
-   println(maxValue)
-}
-//expression body
-//val maxValue:Int=if(a>b){a}else{b} println(maxValue)
+fun main(){
+   //using when keyword instead of if else ladder
+   var num=2
 
+   when(num){
+      0->println("Zero")
+      1->println("One")
+      2->println("Two")
+
+      else->println("None of the above")
+   }
+   //when{ num>0->prinltn("Positive")......
+}
