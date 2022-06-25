@@ -1,7 +1,8 @@
 fun main(){
-  var a=arrayOf("a","b","c","d","e")
-   for(i in 0..a.size-1)
-   {
-      println("${a[i]}")
-   }
+   //decrementing operator
+   //to increment us step which means increment in interation in kotlin
+  for(i in 10 downTo 1)
+  {
+     println(i)
+  }
 }
