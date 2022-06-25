@@ -1,11 +1,10 @@
 fun main(){
-   //to check variable lies in the given range -using if else/or using in operator
-   val num=15
-   when(num){
-      in 1 ..10->println("Lies between 1-10")
-      in 11..20->println("Lies between 11-20")
-      else->println("None of these")
+   //to print counting from 1 to 10 using for loop
+   for(i in 1..10)
+   {
+      //i is iterator and 1..10 is range here iterator takes the first value itself
+      //only in for loop
+      println(i)
    }
-
 
 }
