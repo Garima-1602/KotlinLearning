@@ -1,13 +1,13 @@
 fun main(){
-   //mutable lists are changeable
-    //syntax for defining:-var/val listname =mutableListOf<data type>(list of items)
-    //there is another list array list taken from java
-    //syntax val/var listname=arrayListOf<data type>(list of items
-    val listOfString= mutableListOf("garima","is","learning","kotlin")
-    listOfString[0]="GK"
-    listOfString.add("daily")
-    listOfString.removeAt(3)
-    val arr=arrayOf("a,","b","c")
-    listOfString.addAll(arr)
-    print(listOfString)
+
+    //exception handling -using try,catch,finally
+    val d= arrayOf(3,4,5,6)
+    try{
+        d[4]=7
+    }catch(e: ArrayIndexOutOfBoundsException){
+
+    }finally{
+        println(d[2])
+    }
+
 }
