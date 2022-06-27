@@ -1,8 +1,7 @@
 fun main(){
-   //decrementing operator
-   //to increment us step which means increment in interation in kotlin
-  for(i in 10 downTo 1)
-  {
-     println(i)
-  }
+   //arrays are fixed
+// lists are changeable-mutable and unmutable
+    //syntax for declaration-var/val listname=listOf<datatype>(list of items)
+    val listOfString= listOf("garima","is","learning","kotlin")
+    print(listOfString)
 }
