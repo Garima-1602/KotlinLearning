@@ -1,8 +1,7 @@
 fun main(){
-   //arrays are fixed
-// lists are changeable-mutable and immmutable
-    //syntax for declaration-var/val listname=listOf<datatype>(list of items)
-    //immutable list used to store static values/information
-    val listOfString= listOf("garima","is","learning","kotlin")
+   //mutable lists are changeable
+    //syntax for defining:-var/val listname =mutableListOf<data type>(list of items)
+    var listOfString= mutableListOf("garima","is","learning","kotlin")
+    listOfString[0]="GK"
     print(listOfString)
 }
