@@ -1,6 +1,8 @@
 fun main(){
    //mutable lists are changeable
     //syntax for defining:-var/val listname =mutableListOf<data type>(list of items)
+    //there is another list array list taken from java
+    //syntax val/var listname=arrayListOf<data type>(list of items
     val listOfString= mutableListOf("garima","is","learning","kotlin")
     listOfString[0]="GK"
     listOfString.add("daily")
