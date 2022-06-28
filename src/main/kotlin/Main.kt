@@ -1,17 +1,14 @@
 fun main(){
-    //two types of exceptions
-    //java.lang.arithmeticException
-    //ArrayIndexOutOfException
-    //NPE-Null Pointer Exception
-    //npe occur when compiler expect value of variable but get null
-    //null safety operator-string?.length
-    //elvis operator -to print default value instead of null
-    //filterNotNull()used to remove null elemnets from array or list
+    var rest1=Restaurant("LCD",4.1,200)
+    var rest2=Restaurant("Dominos",3.1,150)
+    var rest3=Restaurant("LCD",4.1,200)
+    var rest4=Restaurant("LCD",4.1,200)
+    var rest5=Restaurant("LCD",4.1,200)
+    println(rest1)
+    println(rest2)
+    println(rest3)
+    println(rest4)
+    println(rest5)
 
-    //var nullValue:String?=null
-    //println(nullValue?.length?:"This is null") //?:elvis operator //?.nullsafety operator
-    val nullList=listOf(1,2,3,null,5,null,6,null,0)
-    var arrayList=arrayListOf("This","is",null,"a","statement",null)
-    println("The list without null value is ${nullList.filterNotNull()}")
-    println("The array without null value is ${arrayList.filterNotNull()}")
+
 }
