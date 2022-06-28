@@ -15,7 +15,8 @@ class First {
 fun main()
 {
     val f1=First()
-    f1.breed="German Stephard"
+    //here f1 is object
+    f1.breed="German Stephard" //accesing the varaibvles using object
     f1.color="Black"
     f1.age=1
     println("The breed of the dog is ${f1.breed},whose color is ${f1.color} ,and age is ${f1.age}")
